@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-web_crawler_stack.py
-    - The web crawler with a stack.
-@author: Dongwook Shin and Yash Kanoria, 2014/08/14
-@author: Kriste Krstovski, 2018/08/20 (edits to reflect Python 3 version)
-This web crawler walks through the URLs in the source website and keep
-crawling until there is no URL to be scanned. It stops crawling if a preset
-maximum number of urls have been visited.
+    Changes made for b9122_hw3_Q2
 
 """
 from bs4 import BeautifulSoup
